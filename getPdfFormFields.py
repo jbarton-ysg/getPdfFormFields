@@ -2,7 +2,6 @@
 
 import os
 import subprocess
-import shlex
 
 path = raw_input("Enter PDF directory path: ")
 output = open("pdf_form_fields.txt", "w")
