@@ -24,7 +24,7 @@ for name, data in files.items():
     output.write('----'+name+'----\n')
     output.write(data)
     output.write('\n\n')
-    count = count + 1
+    count+= 1
 
 output.write("\ntotal files processed\n")
 output.write(str(count))
